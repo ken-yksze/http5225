@@ -28,6 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <body>
 
+    <h1>The Magic Number Game</h1>
+
     <form method="post" action="">
         <label for="number">Number:</label>
         <input type="number" id="number" name="number" value="<?php echo $number; ?>" required>

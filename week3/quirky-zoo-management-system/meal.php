@@ -7,6 +7,8 @@
 
 <body>
 
+    <h1>Quirky Zoo Management System</h1>
+
     <?php
 
     date_default_timezone_set('EST5EDT');
@@ -27,7 +29,7 @@
         $food = 'The animals are not being fed at this time';
     }
 
-    echo '<h1>' . "Current Time: $currentTime" . '</h1>';
+    echo '<h2>' . "Current Time: $currentTime" . '</h2>';
     echo '<h2>' . "Meal: $meal" . '</h2>';
     echo '<h2>' . "Food: $food" . '</h2>';
 
