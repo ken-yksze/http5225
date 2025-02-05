@@ -61,6 +61,8 @@
         echo '<h4>' . 'Catch phrase: ' . $users[$i]['company']['catchPhrase'] . '</h4>';
         echo '<h4>' . 'BS: ' . $users[$i]['company']['bs'] . '</h4>';
 
+        echo '<hr';
+
     }
 
     ?>
