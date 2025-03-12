@@ -36,16 +36,16 @@ VALUES
 INSERT INTO
     characters (name, thumbnail, anime_id)
 VALUES
-    ('Naruto Uzumaki', 'https://static.wikia.nocookie.net/naruto/images/d/d6/Naruto_Part_I.png/revision/latest/scale-to-width-down/1200?cb=20210223094656', 1),
-    ('Sasuke Uchiha', 'https://static.wikia.nocookie.net/naruto/images/2/21/Sasuke_Part_1.png/revision/latest/scale-to-width-down/300?cb=20170716092103', 1),
-    ('Sakura Haruno', 'https://static.wikia.nocookie.net/naruto/images/6/64/Sakura_Part_1.png/revision/latest/scale-to-width-down/1200?cb=20170726101444', 1),
+    ('Naruto Uzumaki', 'https://static.wikia.nocookie.net/naruto/images/d/d6/Naruto_Part_I.png', 1),
+    ('Sasuke Uchiha', 'https://static.wikia.nocookie.net/naruto/images/2/21/Sasuke_Part_1.png', 1),
+    ('Sakura Haruno', 'https://static.wikia.nocookie.net/naruto/images/6/64/Sakura_Part_1.png', 1),
     ('Naruto Uzumaki', 'https://www.thepopverse.com/_next/image?url=https%3A%2F%2Fmedia.thepopverse.com%2Fmedia%2Fnaruto-in-sage-mode-uw2bwsqkeveencjzcvjcdikwqe.jpg&w=1280&q=75', 2),
-    ('Sasuke Uchiha', 'https://static.wikia.nocookie.net/characterprofile/images/2/25/Sasuke_Uchiha.png/revision/latest?cb=20160103210440', 2),
-    ('Sakura Haruno', 'https://static.wikia.nocookie.net/naruto-ultimate-ninja-storm/images/f/f4/Sakura.png/revision/latest?cb=20210319171215', 2),
-    ('Edward Elric', 'https://static.wikia.nocookie.net/fma/images/b/bc/Edward_Elric.jpg/revision/latest?cb=20240719004259', 3),
-    ('Alphonse Elric', 'https://static.wikia.nocookie.net/fullmetal-alchemist-database/images/f/f6/AlphonseElricEp7.png/revision/latest?cb=20121007031424', 3),
-    ('Rintaro Okabe', 'https://static.wikia.nocookie.net/steins-gate/images/6/6c/Rintaro_Okabe_SG_anime_portrait.png/revision/latest/scale-to-width/360?cb=20241124145245', 4),
-    ('Kurisu Makise', 'https://static.wikia.nocookie.net/steins-gate/images/f/f6/Kurisu_Makise.png/revision/latest?cb=20141213000333&path-prefix=es', 4),
-    ('Mayuri Shiina', 'https://static.wikia.nocookie.net/steins-gate/images/d/df/Mayuri_Shiina_SG_anime_portrait.png/revision/latest?cb=20241124142624', 4),
+    ('Sasuke Uchiha', 'https://static.wikia.nocookie.net/characterprofile/images/2/25/Sasuke_Uchiha.png', 2),
+    ('Sakura Haruno', 'https://static.wikia.nocookie.net/naruto-ultimate-ninja-storm/images/f/f4/Sakura.png', 2),
+    ('Edward Elric', 'https://static.wikia.nocookie.net/fma/images/b/bc/Edward_Elric.jpg', 3),
+    ('Alphonse Elric', 'https://static.wikia.nocookie.net/fullmetal-alchemist-database/images/f/f6/AlphonseElricEp7.png', 3),
+    ('Rintaro Okabe', 'https://static.wikia.nocookie.net/steins-gate/images/6/6c/Rintaro_Okabe_SG_anime_portrait.png', 4),
+    ('Kurisu Makise', 'https://static.wikia.nocookie.net/steins-gate/images/f/f6/Kurisu_Makise.png', 4),
+    ('Mayuri Shiina', 'https://static.wikia.nocookie.net/steins-gate/images/d/df/Mayuri_Shiina_SG_anime_portrait.png', 4),
     ('Eren Jaeger', 'https://www.sideshow.com/wp/wp-content/uploads/2022/02/eren-yeager-season-1.jpeg', 5),
     ('Mikasa Ackerman', 'https://cdn.staticneo.com/w/attackontitan/MikasaAckerman.jpg', 5);

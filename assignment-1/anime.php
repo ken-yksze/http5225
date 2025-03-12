@@ -53,6 +53,7 @@ if (!$id) {
         exit;
     }
 
+    echo '<a href="index.php">Back</a>';
     echo '<h2>' . $anime_record['name'] . '</h2>';
     echo '<img src="' . $anime_record['thumbnail'] . '" width="100">';
     echo '<p>' . 'Number of episodes: ' . $anime_record['no_of_episodes'] . '</p>';
