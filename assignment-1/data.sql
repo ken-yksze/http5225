@@ -45,7 +45,7 @@ VALUES
     ('Edward Elric', 'https://static.wikia.nocookie.net/fma/images/b/bc/Edward_Elric.jpg', 3),
     ('Alphonse Elric', 'https://static.wikia.nocookie.net/fullmetal-alchemist-database/images/f/f6/AlphonseElricEp7.png', 3),
     ('Rintaro Okabe', 'https://static.wikia.nocookie.net/steins-gate/images/6/6c/Rintaro_Okabe_SG_anime_portrait.png', 4),
-    ('Kurisu Makise', 'https://static.wikia.nocookie.net/steins-gate/images/f/f6/Kurisu_Makise.png', 4),
+    ('Kurisu Makise', 'https://i.pinimg.com/474x/0f/50/17/0f5017bb4d5f89edf85dfcb9eb7a668a.jpg', 4),
     ('Mayuri Shiina', 'https://static.wikia.nocookie.net/steins-gate/images/d/df/Mayuri_Shiina_SG_anime_portrait.png', 4),
     ('Eren Jaeger', 'https://www.sideshow.com/wp/wp-content/uploads/2022/02/eren-yeager-season-1.jpeg', 5),
     ('Mikasa Ackerman', 'https://cdn.staticneo.com/w/attackontitan/MikasaAckerman.jpg', 5);

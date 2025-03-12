@@ -62,7 +62,8 @@ if (!$id) {
     // Create the character query
     $character_query = "SELECT character_id, name, thumbnail
             FROM characters
-            WHERE anime_id=$id";
+            WHERE anime_id=$id
+            ORDER BY character_id";
 
     // Execute the character query
     $character_result = mysqli_query($connect, $character_query);
