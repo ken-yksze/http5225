@@ -16,6 +16,7 @@ if (!$connect) {
 
 <head>
     <title>HTTP5225 Assignment 1</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
 <body>
@@ -44,7 +45,7 @@ if (!$connect) {
     // Loop through the records found
     while ($record = mysqli_fetch_assoc($result)) {
         echo '<li id="' . 'anime-' . $record['anime_id'] . '">';
-        echo '<h3>' . $record['name'] . '</h3>';
+        echo '<a href="anime?id=' . $record['anime_id'] . '">' . '<h3>' . $record['name'] . '</h3>' . '</a>';
         echo '<img src="' . $record['thumbnail'] . '" width="100">';
         echo '<p>' . 'Number of episodes: ' . $record['no_of_episodes'] . '</p>';
         echo '<p>' . 'Premiered On: ' . $record['premiered_on'] . '</p>';
