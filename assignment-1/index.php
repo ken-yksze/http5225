@@ -45,7 +45,7 @@ if (!$connect) {
     // Loop through the records found
     while ($record = mysqli_fetch_assoc($result)) {
         echo '<li id="' . 'anime-' . $record['anime_id'] . '">';
-        echo '<a href="anime?id=' . $record['anime_id'] . '">' . '<h3>' . $record['name'] . '</h3>' . '</a>';
+        echo '<a href="anime.php?id=' . $record['anime_id'] . '">' . '<h3>' . $record['name'] . '</h3>' . '</a>';
         echo '<img src="' . $record['thumbnail'] . '" width="100">';
         echo '</li>';
     }

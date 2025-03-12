@@ -46,14 +46,13 @@ if (!$id) {
         exit;
     }
 
-    $anime_records = mysqli_fetch_assoc($anime_result);
+    $anime_record = mysqli_fetch_assoc($anime_result);
 
-    if (empty($anime_records)) {
+    if (!$anime_record) {
         echo 'Error: Anime not found <br>';
         exit;
     }
 
-    $anime_record = $anime_records[0];
     echo '<h2>' . $anime_record['name'] . '</h2>';
     echo '<img src="' . $anime_record['thumbnail'] . '" width="100">';
     echo '<p>' . 'Number of episodes: ' . $anime_record['no_of_episodes'] . '</p>';
@@ -69,17 +68,10 @@ if (!$id) {
 
     if ($character_result) {
         echo '<h3>Characters</h3>';
-        $character_records = mysqli_fetch_assoc($character_result);
-
-        if (empty($character_records)) {
-            echo '<p>No characters</p>';
-            exit;
-        }
-
         echo '<ul id="characters">';
 
         // Loop through the character records found
-        foreach ($character_records as $character_record) {
+        while ($character_record = mysqli_fetch_assoc($character_result)) {
             echo '<li id="' . 'character-' . $character_record['character_id'] . '">';
             echo '<h4>' . $character_record['name'] . '</h4>';
             echo '<img src="' . $character_record['thumbnail'] . '" width="100">';
