@@ -27,7 +27,7 @@ if (!$connect) {
     <?php
 
     // Create a query
-    $query = 'SELECT anime_id, name, thumbnail, no_of_episodes, premiered_on
+    $query = 'SELECT anime_id, name, thumbnail
             FROM animes
             ORDER BY premiered_on';
 
@@ -47,8 +47,6 @@ if (!$connect) {
         echo '<li id="' . 'anime-' . $record['anime_id'] . '">';
         echo '<a href="anime?id=' . $record['anime_id'] . '">' . '<h3>' . $record['name'] . '</h3>' . '</a>';
         echo '<img src="' . $record['thumbnail'] . '" width="100">';
-        echo '<p>' . 'Number of episodes: ' . $record['no_of_episodes'] . '</p>';
-        echo '<p>' . 'Premiered On: ' . $record['premiered_on'] . '</p>';
         echo '</li>';
     }
 
